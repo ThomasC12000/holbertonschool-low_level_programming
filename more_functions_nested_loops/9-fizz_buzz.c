@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point.
- * @size: size of the square.
+ * return: 0 if succes
  */
 int main(void)
 {
