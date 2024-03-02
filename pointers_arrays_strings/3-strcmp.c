@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncpy - compares two strings.
+ * _strcmp - compares two strings.
  * @s2: String
  * @s1: String
  * Return: result of ( *s1 - *s2 )
