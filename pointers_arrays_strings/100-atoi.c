@@ -13,7 +13,7 @@ int _atoi(char *s)
 
 	a = 0;
 	b = -1;
-	
+
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (s[i] == '-')
