@@ -11,7 +11,7 @@ char *_strncpy(char *dest, char *src, int n)
 {
 char *ptr = dest;
     
-    while (*src != '\0' && n > 0) 
+    while (*src != '\0' && n > 0)
 	{
         *ptr = *src;
         ptr++;
@@ -19,7 +19,7 @@ char *ptr = dest;
         n--;
     }
 
-    while (n > 0) 
+    while (n > 0)
 	{
         *ptr = '\0';
         ptr++;
