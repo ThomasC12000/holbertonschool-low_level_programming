@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memset - fills memory with a constant byte.
+ * _memcpy - copies memory area.
  * @dest: String
  * @src: String
  * @n: unsigned int
