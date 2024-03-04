@@ -5,6 +5,7 @@
  * @s: String
  * @b: String
  * @n: unsigned int
+ * Return: s
  */
 char *_memset(char *s, char b, unsigned int n)
 {
