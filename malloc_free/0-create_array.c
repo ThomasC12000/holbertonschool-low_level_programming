@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * create_array - creates an array of chars, and initializes it with a specific char.
+ * create_array - creates an array of chars.
  * @size: the size of the memory to print.
  * @c: String
  * Return: pointer to the array, or NULL if it fails.
@@ -25,5 +25,5 @@ char *create_array(unsigned int size, char c)
 	{
 		p[i] = c;
 	}
-	return(p);
+	return (p);
 }
