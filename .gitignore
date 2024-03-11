@@ -1,5 +1,4 @@
 .vscode/settings.json
 malloc_free/0-main.c
 malloc_free/1-main.c
-malloc_free/1-strdup.c
 malloc_free/s
