@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * str_concat - copies a string into a new buffer
- * @s1: the string to copy
- * @s2: the string to copy
- * Return: pointer to a new buffer
+ * str_concat - concatenate two strings into a new buffer
+ * @s1: the first string
+ * @s2: the second string
+ * Return: pointer to a new buffer containing the concatenated strings
  */
 char *str_concat(char *s1, char *s2)
 {
