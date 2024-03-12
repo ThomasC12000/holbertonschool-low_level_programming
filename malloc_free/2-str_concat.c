@@ -3,7 +3,7 @@
 /**
  * str_concat - copies a string into a new buffer
  * @s1: the string to copy
- * @s2: 
+ * @s2: the string to copy
  * Return: pointer to a new buffer
  */
 char *str_concat(char *s1, char *s2)
