@@ -23,5 +23,6 @@ int **alloc_grid(int width, int height)
 			table[i][j] = 0;
 		}
 	}
+	free(table);
 	return (table);
 }
