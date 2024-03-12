@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * str_concat - concatenate two strings into a new buffer
- * @s1: the first string
- * @s2: the second string
- * Return: pointer to a new buffer containing the concatenated strings
+ * alloc_grid - Allocate a 2D array of integers
+ * @width: width of the grid
+ * @height: height of the grid
+ * Return: Pointer to the allocated grid
  */
 int **alloc_grid(int width, int height)
 {
