@@ -5,3 +5,4 @@ malloc_free/s
 malloc_free/2-main.c
 malloc_free/3-main.c
 malloc_free/4-main.c
+more_malloc_free/0-main.c
