@@ -9,3 +9,4 @@ more_malloc_free/0-main.c
 more_malloc_free/1-main.c
 more_malloc_free/1-string_nconcat.c
 structures_typedef/0-main.c
+structures_typedef/2-main.c
