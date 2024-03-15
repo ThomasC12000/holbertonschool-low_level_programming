@@ -24,7 +24,6 @@ char *str_concat(char *s1, char *s2)
 	
 	if (p == NULL)
 	{
-		free(p);
 		return (NULL);
 	}
 	for (j = 0; j < len; j++)
