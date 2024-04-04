@@ -1,19 +1,18 @@
 #include "lists.h"
 
 /**
- * _strlen - Returns the length of a string.
- * @s: String.
- * Return: Value of a.
+ * _strlen - Returns the length of a string
+ * @s: String being evaluated
+ *
+ * Return: Length of string
  */
-int _strlen(char *s)
+int _strlen(const char *s)
 {
-	int a = 0;
+	unsigned int i = 0;
 
-	while (s[a] != '\0')
-	{
-		a++;
-	}
-	return (a);
+	while (*s++)
+		++i;
+	return (i);
 }
 
 /**
